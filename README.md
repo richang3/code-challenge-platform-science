@@ -1,5 +1,5 @@
-Android App for Platform Science Code Exercise
-==============================================
+Platform Science Code Exercise
+==============================
 
 This is an Android App that demonstrates Platform Science Code Exercise:
 
@@ -14,11 +14,11 @@ shipment destination to a given driver while maximizing the total suitability of
 all drivers.
 
 The top-secret algorithm is:
-● If the length of the shipment's destination street name is even, the base suitability score
+* If the length of the shipment's destination street name is even, the base suitability score
 (SS) is the number of vowels in the driver’s name multiplied by 1.5.
-● If the length of the shipment's destination street name is odd, the base SS is the number
+* If the length of the shipment's destination street name is odd, the base SS is the number
 of consonants in the driver’s name multiplied by 1.
-● If the length of the shipment's destination street name shares any common factors
+* If the length of the shipment's destination street name shares any common factors
 (besides 1) with the length of the driver’s name, the SS is increased by 50% above the
 base SS.
 
@@ -33,11 +33,11 @@ First, clone the repo:
 
 `git clone git@github.com:richang3/code-challenge-platform-science.git`
 
-Building the sample then depends on your build tools.
+Building the app using your build tools.
 
 ### Android Studio (Recommended)
 
-(These instructions were tested with Android Studio Chipmunk
+(These instructions were tested with Android Studio Chipmunk)
 
 * Open Android Studio and select `File->Open...` or from the Android Launcher select `Import project (Eclipse ADT, Gradle, etc.)` and navigate to the root directory of your project.
 * Select the directory or drill in and select the file `build.gradle` in the cloned repo.
